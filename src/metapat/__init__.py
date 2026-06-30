@@ -36,7 +36,13 @@ from .canon import (
     primitive_extension,
     root_spine,
 )
-from .validation import boundary_earns_its_keep, tensor_precedes_time
+from .validation import (
+    boundary_earns_its_keep,
+    consciousness_is_optional,
+    observer_role_by_registration,
+    registration_is_not_time,
+    tensor_precedes_time,
+)
 
 __all__ = [
     "ENERGY_THEORY_QUESTION",
@@ -44,8 +50,11 @@ __all__ = [
     "ROOT_SPINE",
     "TIME_DEFINITION",
     "boundary_earns_its_keep",
+    "consciousness_is_optional",
     "definitions",
+    "observer_role_by_registration",
     "primitive_extension",
+    "registration_is_not_time",
     "root_spine",
     "tensor_precedes_time",
 ]
