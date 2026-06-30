@@ -1,39 +1,41 @@
-# Codex Handoff: Finish full skill-lib compliance locally
+# Codex Handoff: Verify full skill-lib compliance locally
 
 ## Status
 
-METAPAT now has the main compliance scaffold:
+METAPAT now has:
 
-- `AGENTS.md` with source `LLMS` block
+- `AGENTS.md`
 - `llms.txt`
 - `.agents/skills/README.md`
-- local skill entries for most directly used skills
+- local skill entries
 - `pyproject.toml`
 - `src/metapat/` package
-- colocated msdmd blocks in source modules
-- executable tests in `tests/test_contracts.py`
-- `metapat_msdmd.ts` collection point
+- colocated msdmd blocks
+- five executable functional tests in `tests/test_contracts.py`
+- `metapat_msdmd.ts`
 - `COMPLIANCE.md`
 - `ROADMAP.md`
 
+## Five tests now present
+
+1. Boundary Earns Its Keep.
+2. Tensor Precedes Time.
+3. Registration Is Not Time.
+4. Observer Role by Registration.
+5. Consciousness Is Optional.
+
 ## Remaining hmmm
 
-The GitHub write tool blocked direct creation of these local skill paths during initial compliance work:
+Local command execution has not been run from this chat environment.
 
-```text
-.agents/skills/llms-build/SKILL.md
-.agents/skills/test-build/SKILL.md
-.agents/skills/the-interdependency/SKILL.md
-```
+Verbatim skill-lib propagation may still improve the lightweight local skill entries.
 
-Resolve by copying these skill directories verbatim from `The-Interdependency/skill-lib` in a local development environment.
+## Expected local verification patch
 
-## Expected follow-up patch
-
-1. Copy missing skill directories from skill-lib.
-2. Regenerate `llms.txt` from `AGENTS.md`.
-3. Regenerate `metapat_msdmd.ts` from source blocks.
-4. Update `COMPLIANCE.md` to mark local checks pass/fail with exact output.
+1. Run local tests.
+2. Check `llms.txt` from `AGENTS.md`.
+3. Check `metapat_msdmd.ts` from source blocks.
+4. Update `COMPLIANCE.md` with exact command output.
 5. If required, add METAPAT to `skill-lib/ORG_DISTRIBUTION.md` target repos.
 
 ## Guardrails
