@@ -4,8 +4,8 @@ These tests are deliberately small. They protect the current Chapter Zero spine
 without pretending to formalize the full ontology.
 """
 
-from metapat.canon import definitions, root_spine, TIME_DEFINITION
-from metapat.validation import boundary_earns_its_keep, tensor_precedes_time
+from src.metapat.canon import TIME_DEFINITION, definitions, root_spine
+from src.metapat.validation import boundary_earns_its_keep, tensor_precedes_time
 
 
 def test_root_spine_contains_current_axioms() -> None:
