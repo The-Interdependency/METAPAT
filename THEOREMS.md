@@ -59,3 +59,15 @@ If time is sequential tensor alteration, and registration is the capacity of a s
 Therefore, time can occur without being consciously narrated, and registration can occur without consciousness.
 
 Story is one conscious registration of time, not time itself.
+
+## Seventh Theorem: Observer Role Is Earned by Registration
+
+If observer is a simplex performing registration, then a simplex is not an observer merely by being present in a tensor.
+
+Therefore, observer is a role performed by a simplex when it preserves, expresses, or transmits sequential tensor alteration.
+
+## Eighth Theorem: Consciousness Is Optional
+
+If observer is any simplex performing registration, and consciousness is one observer-mode, then consciousness is not required for registration.
+
+Therefore, non-conscious registration and conscious story can both be observer-mode expressions, but only story is conscious registration of time.
