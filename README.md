@@ -39,8 +39,34 @@ Time is sequential tensor alteration.
 - [`GLOSSARY.md`](GLOSSARY.md) — current term meanings and status.
 - [`DOMAIN_RESTRAINT.md`](DOMAIN_RESTRAINT.md) — rule for importing tools from domains without domain capture.
 - [`examples/`](examples/) — canonical examples used to test whether the ontology stays stable.
-- [`tests/`](tests/) — validation specifications, not yet executable code.
+- [`tests/`](tests/) — executable theorem contract tests plus Markdown validation specs.
 - [`codex/skill-lib-handoff.md`](codex/skill-lib-handoff.md) — handoff for altering `The-Interdependency/skill-lib` so it consumes METAPAT rather than owning Energy Theory.
+
+## msdmd compliance
+
+METAPAT now carries a skill-lib / msdmd compliance scaffold:
+
+- [`AGENTS.md`](AGENTS.md) — agent entry point and source `LLMS` block.
+- [`llms.txt`](llms.txt) — generated-style root instructions from the `LLMS` declaration.
+- [`metapat_msdmd.ts`](metapat_msdmd.ts) — repo-level msdmd collection point.
+- [`src/metapat/`](src/metapat/) — importable package modules with colocated `MODULE_BUILD`, `DOCS`, `CAPABILITIES`, `OWNERS`, `BOUNDARIES`, `CONTRACTS`, and `DEPENDENCIES` declarations where applicable.
+- [`.agents/skills/`](.agents/skills/) — repo-local skill entries pointing back to canonical `The-Interdependency/skill-lib`.
+
+## Planned architecture flow
+
+```text
+UCNS -> METAPAT -> EDCM
+```
+
+Current status:
+
+```text
+UCNS side: hmmm, planned but not implemented.
+EDCM side: hmmm, planned but not implemented.
+Exact bridge APIs: hmmm.
+```
+
+The flow plan is declared in [`src/metapat/flow_plan.py`](src/metapat/flow_plan.py). It records the intended architectural edge without pretending implementation exists.
 
 ## Repository rule
 
@@ -48,8 +74,14 @@ Time is sequential tensor alteration.
 No implementation owns the root.
 ```
 
-`skill-lib`, `ucns`, `edcmbone`, `a0`, `a0p`, AIMMH, and other repositories may consume, apply, test, or represent METAPAT. They do not define it.
+`skill-lib`, `ucns`, `edcmbone`, `edcm`, `a0`, `a0p`, AIMMH, and other repositories may consume, apply, test, or represent METAPAT. They do not define it.
 
-## Status
+## Development check
 
-This repo is doctrine-first. Code is not required for canon. Tests begin as theorem validation cases; executable implementations may follow only after the root is stable enough to survive implementation pressure.
+After cloning:
+
+```bash
+python -m unittest discover -s tests
+```
+
+hmmm: full local execution of skill-lib drift/compliance checks has not yet been run in this repository after the initial scaffold commit.
