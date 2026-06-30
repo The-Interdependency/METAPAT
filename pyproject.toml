@@ -1,0 +1,29 @@
+[project]
+name = "metapat"
+version = "0.0.1"
+description = "Meta Energy Theory — Axioms, Postulates, and Theorems"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MPL-2.0" }
+authors = [
+  { name = "The Interdependency" }
+]
+keywords = ["energy-theory", "metapat", "msdmd", "ucns", "edcm"]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+ucns = []
+edcm = []
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.metapat]
+canonical_root = true
+upstream_owner = "The-Interdependency"
+future_imports = ["The-Interdependency/ucns"]
+future_exports = ["The-Interdependency/edcm"]
