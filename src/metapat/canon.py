@@ -18,6 +18,24 @@
 #   rollback: remove package exports
 # === END MODULE_BUILD ===
 
+# === DOCS ===
+# id: metapat_canon_docs
+#   summary: documents METAPAT root spine and primitive extension
+#   audience: agent
+#   source: AXIOMS.md
+#   covers: ROOT_SPINE, PRIMITIVE_EXTENSION, TIME_DEFINITION, ENERGY_THEORY_QUESTION
+#   status: current
+# === END DOCS ===
+
+# === CAPABILITIES ===
+# id: metapat_canon_constants
+#   summary: provides exact importable constants for METAPAT root doctrine
+#   exposes: metapat.canon.definitions
+#   inputs: none
+#   outputs: dict
+#   boundaries: auth:none, storage:none, network:none, user_data:none
+# === END CAPABILITIES ===
+
 ROOT_SPINE: tuple[str, ...] = (
     "Legible difference is distinction.",
     "Distinction defines boundaries.",
