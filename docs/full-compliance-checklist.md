@@ -7,21 +7,28 @@
 - Source LLMS block added.
 - `llms.txt` added.
 - Python package scaffold added.
+- Repo-local skill entries added for direct skill-lib dependencies.
 - msdmd source blocks added to package modules.
-- Executable contract tests added.
+- Five executable functional tests added.
 - Repo-level msdmd collection point added.
 - Compliance ledger added.
 - UCNS -> METAPAT -> EDCM roadmap added.
 
+## Five tests
+
+- Boundary Earns Its Keep.
+- Tensor Precedes Time.
+- Registration Is Not Time.
+- Observer Role by Registration.
+- Consciousness Is Optional.
+
 ## hmmm
 
-- Local write tool blocked three repo-local skill entries.
-- Local execution of test and msdmd runners was not possible from this environment because GitHub could not be cloned from the container.
-- Verbatim skill-lib propagation still needs a local pass.
+- Local execution of test and msdmd runners was not possible from this chat environment.
+- Verbatim skill-lib propagation may still refine local skill entries, but repo-local entries now exist.
 
 ## Next local pass
 
-- Copy missing skill directories from skill-lib.
 - Run tests.
 - Regenerate `llms.txt`.
 - Regenerate `metapat_msdmd.ts`.
