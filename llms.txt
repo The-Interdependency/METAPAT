@@ -1,0 +1,25 @@
+# LLM Instructions for METAPAT
+
+## Project Overview
+
+METAPAT is the canonical source for Meta Energy Theory: a substrate-independent ontology of energy-state relation and transformation. It is doctrine-first, msdmd-declared, and planned to import UCNS representations and export resulting modules to EDCM without letting either implementation own the root.
+
+## Key Definitions (never infer or expand these)
+
+- **METAPAT** = Meta Energy Theory — Axioms, Postulates, and Theorems.
+- **root_spine** = Legible difference is distinction; distinction defines boundaries; boundaries define simplex; boundary is simplex of distinction; simplex holds or modifies energy in a state of being.
+- **tensor** = Primitive simultaneous arrangement of energy-states.
+- **time** = Sequential tensor alteration.
+- **registration** = Capacity of a simplex to preserve, express, or transmit sequential tensor alteration.
+- **observer** = A simplex performing registration; observer does not necessarily mean mind.
+- **question** = A bounded unresolved energy-state.
+
+## Architecture Summary
+
+Canon lives in Markdown root docs and importable Python constants. msdmd declarations live beside package modules. Planned bridge direction is UCNS -> METAPAT -> EDCM. Bridge modules remain scaffolded until exact UCNS and EDCM APIs are selected.
+
+## How to Use This Repo with LLMs / Agents
+
+Preserve METAPAT as root canon. Do not let domains redefine the root. Do not make consciousness parent to time. Do not make registration parent to time. Do not treat UCNS or EDCM as owners of Energy Theory. Use hmmm for unresolved import/export details. Update msdmd blocks in the same diff as code or documentation changes.
+
+This file is the single source of truth. If something is not explicitly stated in the files listed above, it does not exist in this repository.
