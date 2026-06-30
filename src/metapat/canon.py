@@ -1,5 +1,23 @@
 """Canonical METAPAT terms and definitions."""
 
+# === MODULE_BUILD ===
+# id: metapat_canon_core
+#   module_name: metapat.canon
+#   module_kind: schema
+#   summary: exposes current Meta Energy Theory root and primitive extension as importable constants
+#   owner: The Interdependency
+#   public_surface: ROOT_SPINE, PRIMITIVE_EXTENSION, TIME_DEFINITION, ENERGY_THEORY_QUESTION, root_spine, primitive_extension, definitions
+#   internal_surface: none
+#   auth_boundary: none
+#   storage_boundary: none
+#   network_boundary: none
+#   user_data_boundary: none
+#   admin_only: false
+#   tests: tests.test_contracts
+#   rollout: importable_package
+#   rollback: remove package exports
+# === END MODULE_BUILD ===
+
 ROOT_SPINE: tuple[str, ...] = (
     "Legible difference is distinction.",
     "Distinction defines boundaries.",
